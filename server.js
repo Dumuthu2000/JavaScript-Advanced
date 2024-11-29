@@ -16,4 +16,4 @@ function sayBye(){
 console.log("Start program");
 //Invoking sayHello function
 sayHello("1 Billion Tech", sayBye);
-console.log("End program");
+console.log("End synchronous program");
