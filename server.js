@@ -21,12 +21,13 @@ class Vehicle{
 //Inheritance
 class Car extends Vehicle{
     constructor(brand, model, isRegeistered){
-        super(brand, model);
+        super(brand, model);                                                                                                                                                                                                                                                                                                                                                                                                                                                                
         this.isRegeistered = isRegeistered;
     }
 
     buyCar(){
         console.log(`I was buy a ${this.brand} ${this.model} and that is registered ${this.isRegeistered}`);
+        console.log(this.getEngineStatus())
     }
 }
 
